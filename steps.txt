@@ -1,0 +1,18 @@
+NOTE : scraping script is in the internshalaScraper/spiders/main.py
+
+step 1 :
+    to run this project make sure that you have scrapy installed in your computer.
+
+step 2 :
+    then go to the terminal and move to this folder directory. or if you are using visual studio then open terminal here.
+
+step 3 :
+    then check name of spider in main.py file 
+
+step 4 : 
+    now run command "scrapy crawl main -o <file-name>" here you can pass any file with .csv, .json, .jl, .xml 
+    extension to put scraped data in that file.
+
+    example : 
+        scrapy crawl main -o internships.csv
+        in this example your data will be saved in internships.csv file
